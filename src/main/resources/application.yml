@@ -1,0 +1,19 @@
+server:
+  port: 9801
+
+config:
+  accessory:
+    type: minIO #local, aliyun, minIO
+    baseDir: file
+    local:
+      location: d:\\accessory
+    aliyun:
+      endpoint: oss-cn-hangzhou.aliyuncs.com
+      accessKeyId: LTAI4Fhraue2ayc1KQMkZz5F
+      accessKeySecret: hMpiD9KXcuWNMgzZxFt1fXK0gRMR70
+      bucketName: testajgw
+    minIO:
+      endpoint: http://121.43.58.251:9000
+      accessKey: PGOTKCUPTMHVVOAMJFKUDHDKKQXZQPBA
+      secretKey: PNPZUMUWJBYZLJTDFQVLBHMJACWXBFLF
+      bucketName: enfi-platform
